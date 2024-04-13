@@ -16,11 +16,10 @@
             <div id="task_list">
                 <div class="shadow border flex" *ngFor="let task of list">
                     <input type="checkbox" class="form-check-input" id="complete" (change)="onChange()"> 
-                    <div class="input-group row ps-3 mb-2  align-items-center">
+                    <div class="input-group row ps-3 mb-2 align-items-center">
                         <div class="card col-md-10 border-0">
                           {{task.task_name}}
                         </div>
-                        <button class="btn btn-outline-warning col me-2"><i class="bi bi-pencil-square"></i></button>
                         <button class="btn btn-danger col" (click)="deleteTask(task)"><i class="bi bi-trash"></i></button>
                     </div>
                 </div>

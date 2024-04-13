@@ -1,4 +1,5 @@
 # Todo
+this project is a task managment app, using only arrays to store data, and bootstrap styling with customized toast messages with ToastrService
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
 
